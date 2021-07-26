@@ -1,15 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins;
 }
-/* global styling */
-a {
-  text-decoration: none;
-}
+
 ul {
   list-style: none;
 }
@@ -21,13 +18,13 @@ img {
   margin: 0 auto;
   overflow: hidden;
 }
-span.green {
+span.moon {
   color: #6cb840;
 }
-span.orange {
+span.star{
   color: #eaab1b;
 }
-/* end of global styling */
+
 html {
   font-size: 10px;
 }
@@ -36,8 +33,8 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
 }
-/* header section */
-.header-section {
+
+.header{
   margin-bottom: 2rem;
   background-color: #e5e4e2;
   padding: 2rem;
@@ -61,30 +58,30 @@ body {
   font-size: 1.8rem;
   color: #000;
 }
-.showcase {
+.reader {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4rem 0;
   overflow-x: hidden;
 }
-.showcase .left-content {
+.reader.left-content {
   width: 40%;
   text-align: justify;
 }
-.showcase .left-content h4 {
+.reader .left-content h4 {
   padding: 1.5rem 0 0;
 }
-.showcase .left-content p {
+.reader .left-content p {
   padding: 1.5rem 0;
 }
-.showcase .btn {
+.reader .btn {
   color: #fff;
   background-color: #6cb840;
   padding: 10px 20px;
   border-radius: 20px;
 }
-.showcase .eclipse {
+.reader .eclipse {
   position: absolute;
   top: -560px;
   right: 0;
@@ -94,7 +91,7 @@ body {
   background-color: #6cb840;
   z-index: -1;
 }
-.showcase .right-content {
+.reader.right-content {
   width: 40rem;
 }
 .showcase .c {
